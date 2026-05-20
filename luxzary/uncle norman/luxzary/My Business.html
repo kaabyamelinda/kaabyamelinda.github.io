@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport"content=" width=device-width,
+        initial-scale=1.0=">
+        <title>Laugh and Smile Cafe</title>
+        <style>
+            *{
+                margin:0;
+                padding:0;
+                box-sizing: border-box;
+                font-family:Arial,sans-serif;
+             }
+             body{
+                background: black;
+                color:white;
+             }
+             /*--Header----*/
+             header{
+             background:gold;
+             padding:20px;
+             }
+             nav{
+                display:flex ;
+                justify-content: space-between;
+                align-items: center;
+             }
+             .logo{
+                color: black;
+                font-size: 35px;
+                font-weight:bold;
+             }
+             nav ul{
+                list-style: none;
+                display: flex;
+             }
+             nav ul li{
+                margin-left: 20px;
+             }
+             nav ul li a{
+                color: black;
+                text-decoration: none;
+                font-size: 20px;
+                font-weight: bold;
+             }
+             nav ul li a:hover{
+                color: white;
+             }
+             /*HERO SECTION*/
+             .hero{
+                height: 90vh;
+                background:url("cafe.jpg");
+                background-size: cover;
+                background-position:center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+             }
+             .hero-text{
+                background: rgba(0,0,0,0,7);
+                padding: 40px;
+                border-radius:15px;
+             }
+             .hero-text h1{
+                color:gold;
+                font-size: 60px;
+             }
+             .hero-text p{
+                font-size: 25px;
+                margin-top:15px;
+             }
+             .btn{
+                display: inline-block;
+                margin-top: 20px;
+                padding: 15px 30px;
+                background: gold;
+                color: black;
+                text-decoration: none;
+                border-radius: 10px;
+                font-size: 20px;
+                font-weight: bold;
+             }
+             btn:hover{
+                background: white;
+             }
+             /*ABOUT*/
+             .about{
+                padding: 60px 20px;
+                text-align: center;
+             }
+             .about h2{
+                color: gold;
+                font-size: 40px;
+                margin-bottom: 20px;
+             }
+             .about p{
+                font-size:20px;
+                line-height: 1.8;
+             }
+             /*SERVICES*/
+             .service{
+                padding: 60px 20px;
+                text-align: center;
+             }
+             .services h2{
+                color:gold;
+                font-size: 40px;
+                margin-bottom: 30px;
+             }
+             .service-box{
+                display:flex;
+                justify-content: center;
+                gap: 20px;
+                flex-wrap: wrap;
+             }
+             .card{
+                background: #111;
+                width: 300px;
+                border: 2pxsolid gold;
+                border-radius: 15px;
+                overflow: hidden;
+                padding-bottom: 20px;
+             }
+             .card img{
+                width: 100;
+                height: 220px;
+                object-fit: cover;
+             }
+             .card h3{
+                color: golden;
+                margin-top: 15px;
+                font-size: 30px;
+             }
+             .card p{
+                margin-top: 10px;
+                font-size: 18px;
+             }
+             /*contact*/
+             .contact{
+                background: gold;
+                color: black;
+                text-align: center;
+                padding: 50px;
+             }
+             .contact h2{
+                font-size: 40px;
+                margin-bottom: 20px;
+             }
+             .contact p{
+                font-size: 20px;
+                margin: 10px 0;
+             }
+             /*footer*/
+             footer{
+                background: #111;
+                color: gold;
+                text-align: center;
+                padding: 20px;
+             }
+             </style>
+             </head>
+             <body>
+                <!---header--->
+                <header>
+                    <nav>
+                        <div class="logo">Lough &Smile Cafe</div>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Service</a></li>
+                            <li><a href="#">Contact</a></li>
+                         </ul>
+                    </nav>
+             </body>
+            </header>
+            <!---HERO SECTION-->
+            <section class="hero">
+                <div class="hero-text">
+                    <h1>Welcome to Lough & smile</h1>
+                    <p> Beautiful Moments,Delicious Foods& Happy Smiles</p>
+                    <a href="#" class="btn">Oder Now</a>
+                </div>
+            </section>
+            <!----SERVICES-->
+            <section class="Services">
+                <h2>Our Services</h2>
+                <div class="service-box">
+                    <!---COFFEE-->
+                    <div class="card">
+                        <img src="coffe.jpg" alt="Coffee">
+                        <h3>Coffe</h3>
+                        <p>Fresh hot coffee every day.</p>
+                        <!---BURGER-->
+                        <div class="card">
+                            <img scr="burger.jpg"alt ="Burger">
+                            <h3>Fast Food</h3>
+                            <p>Delicious burgers and snaks.</p>
+                        </div>
+                        <!----CAKE-->
+                        <div class="card">
+                            <imge scr="cake.jpg"alt="Cake">
+                                <h3>Bakery</h3>
+                                <p>Sweet cakes and tasty bakery products.</p>
+                        </div>
+                </div>
+            </section>
+            <!---Contact-->
+            <section class="contact">
+                <h2>contact us</h2>
+                <p>phone:0705499793</p>
+                <p>Email: loughandsmile@gmail.com</p>
+                <p>location:mbale,uganda</p>
+            </section>
+            <!--footer-->
+            <footer>
+                <p>&copy 2026 Lough and smile cafe</p>
+            </footer>
+        </body>
+        </html>
+ </style>
