@@ -1,3 +1,3 @@
 document.getElementById("learnBtn").addEventListener("click", function() {
-    alert("Welcome to the Black & White Website!");
+    alert("Welcome to Lough & Smile Tea Cafe! A smile for every sip you get.");
 });
