@@ -1,0 +1,3 @@
+document.getElementById("learnBtn").addEventListener("click", function() {
+    alert("Welcome to the Black & White Website!");
+});
